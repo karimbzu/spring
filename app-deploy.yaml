@@ -16,9 +16,9 @@ metadata:
     stack.appsody.dev/id: java-spring-boot2
     stack.appsody.dev/version: 0.3.23
   name: spring
-  namespace: express-library
+  namespace: kabanero
 spec:
-  applicationImage: image-registry.openshift-image-registry.svc:5000/express-library/spring
+  applicationImage: image-registry.openshift-image-registry.svc:5000/kabanero/spring
   createKnativeService: false
   expose: true
   livenessProbe:
